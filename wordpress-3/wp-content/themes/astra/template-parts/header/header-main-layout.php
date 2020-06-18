@@ -16,7 +16,7 @@
 
 ?>
 
-<div class="main-header-bar-wrap">
+<div class="main-header-bar-wrap" style="background-color: <?= get_theme_mod('header_background'); ?>">
 	<div <?php echo astra_attr( 'main-header-bar' ); ?>>
 		<?php astra_main_header_bar_top(); ?>
 		<div class="ast-container">

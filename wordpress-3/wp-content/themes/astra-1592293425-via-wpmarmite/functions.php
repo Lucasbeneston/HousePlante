@@ -1,5 +1,7 @@
 <?php
 
+require_once('options/apparence.php');
+
 /* Chargement de la feuille du style du theme parent */
 add_action( 'wp_enqueue_scripts', 'wpchild_enqueue_styles' );
 function wpchild_enqueue_styles(){
